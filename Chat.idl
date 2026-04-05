@@ -1,0 +1,7 @@
+module ChatApp {
+    interface Sala {
+        void enviarMensaje(in string usuario, in string contenido);
+        string leerUltimo();
+    };
+};
+
